@@ -1,2 +1,6 @@
+successfull = True
 for number in range(3):
-    print(number)
+    print("Attempt")
+    if successfull:
+        print("Successful")
+        break
