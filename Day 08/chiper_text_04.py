@@ -4,6 +4,7 @@ def caesar(start_text, shift_amount, cipher_direction):
   end_text = ""
   if cipher_direction == "decode":
     shift_amount *= -1
+
   for char in start_text:
     if char in alphabet:
       position = alphabet.index(char)
@@ -18,6 +19,7 @@ from art import logo
 print(logo)
 
 should_end = False
+
 while not should_end:
 
   direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
