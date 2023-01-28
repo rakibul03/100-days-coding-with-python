@@ -1,6 +1,5 @@
-def my_function(fname):
-  print(fname + " Refsnes")
+def add(a, b):
+  return a + b
 
-my_function("Emil")
-my_function("Tobias")
-
+result = add(3, 8)
+print(result)
